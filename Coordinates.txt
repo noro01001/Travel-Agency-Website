@@ -1,0 +1,7 @@
+	<area target="_self" alt="Africa" title="Africa" href="" coords="328,272,370,239,371,181,355,181,339,149,289,130,260,138,228,169" shape="poly">
+    <area target="_self" alt="Europe" title="Europe" href="" coords="278,16,335,24,331,58,332,84,348,117,314,137,285,129,238,145,205,129,232,72" shape="poly">
+    <area target="_self" alt="Asia" title="Asia" href="" coords="335,15,582,45,505,216,388,224,357,175,326,130,347,119,332,75" shape="poly">
+    <area target="_self" alt="North America" title="North America" href="" coords="2,2,269,1,254,45,224,76,204,99,188,169,145,182,9,172" shape="poly">
+    <area target="_self" alt="Antarctica" title="Antarctica" href="" coords="267,371,69" shape="circle">
+    <area target="_self" alt="Australia" title="Australia" href="" coords="520,188,539,228,525,282,494,261,466,270,463,232,509,216" shape="poly">
+    <area target="" alt="South America" title="South America" href="" coords="131,308,226,179" shape="rect">

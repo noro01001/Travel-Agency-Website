@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Travel Destinations &#8226; About Us</title>
+      <!--
+         
+         Filename: 
+
+         Author:   Norik Movsesyan
+         Date:     December 9, 2020
+         Final Project
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+         <header>
+            <h1><a href="index.html"><img src="images/collage.jpg" width="864" height="184" alt="Travel Destinations"></a></h1>
+         </header>
+         <h2>Travel Destinations Inc.</h2>
+         <nav class="sitenavigation">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+         </ul>
+         </nav>
+         <article>
+            <aside>
+            <h2>Contact Us</h2>
+            <p>Need help with that dream vacation?</p>
+            <p>Contact us for more help!</p>
+            </aside>
+            <div id="contactinfo">
+            <form action="results.html">
+               <fieldset class="contactinfo">
+                  <legend>Contact Info</legend>
+                  <label for="nameinput">
+                     Name
+                     <input type="text" name="name" id="nameinput" placeholder="First and last name">
+                  </label>
+                  <label for="addressinput">
+                     Street Address
+                     <input type="text" name="address" id="addressinput">
+                  </label>
+                  <label for="zipinput">
+                     Zip Code
+                     <input type="text" name="zip" id="zipinput">
+                  </label>
+                  <label for="emailinput">
+                     Email
+                     <input type="email" name="email" id="emailinput" placeholder="address@example.com">
+                  </label>
+                  <label for="phoneinput">
+                     Phone
+                     <input type="tel" name="phone" id="phoneinput">
+                  </label>
+               </fieldset>
+               <fieldset class="timinginfo">
+                  <legend>Best day(s) to schedule a visit</legend>
+                  <label>
+                     <input type="checkbox" id="monday" value="Monday" name="days">
+                     Monday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="tuesday" value="Tuesday" name="days">
+                     Tuesday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="wednesday" value="Wednesday" name="days">
+                     Wednesday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="thursday" value="Thursday" name="days">
+                     Thursday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="friday" value="Friday" name="days">
+                     Friday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="saturday" value="Saturday" name="days">
+                     Saturday
+                  </label>
+                  <label>
+                     <input type="checkbox" id="sunday" value="Sunday" name="days">
+                     Sunday
+                  </label>
+               </fieldset>
+               <fieldset class="jobtype">
+                  <legend>Type Of Help Requested</legend>
+                  <label>
+                     <input type="radio" name="area" id="ticket" value="Ticket">
+                     Help with Tickets
+                  </label>
+                  <label>
+                     <input type="radio" name="area" id="destination" value="Destination">
+                     Help with Destination
+                  </label>
+                  <label>
+                     <input type="radio" name="area" id="financing" value="Financing">
+                     Help with Financing
+                  </label>
+                  <label>
+                     <input type="radio" name="area" id="other" value="Other">
+                     Other (please specify in Notes box below)
+                  </label>
+               </fieldset>
+               <fieldset class="additionalinfo">
+                  <legend>Additional Information</legend>
+                  <label for="notes">
+                     Notes
+                     <textarea name="notes" id="notes" rows="4" cols="60">
+                     </textarea>
+                  </label>
+               </fieldset>
+               <fieldset class="submitbutton">
+                  <input type="submit" id="submit" value="Submit Request">
+               </fieldset>
+            </form>
+            </div>
+         </article>
+         <footer>
+            <p>Norik Movsesyan &#8226; CIT151 Beginning Web Development &#8226; Fall 2020</p>
+         </footer>
+         </div>
+   </body>
+</html>
